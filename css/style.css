@@ -1,5 +1,5 @@
 @import url('http://fonts.cdnfonts.com/css/intro');
-
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
 
 #main-container,
 html,
@@ -11,6 +11,11 @@ body {
 
 /*NAV BAR*/
 
+.logo {
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+}
+
 
 .navbar-brand {
     font-size: 30px;
@@ -20,6 +25,8 @@ body {
 
 .nav-item {
     font-size: 18px;
+    font-family: 'Arvo', serif;
+    font-weight: 200;
 }
 
 
@@ -47,7 +54,7 @@ a {
 .footer-dark {
     padding: 50px 0;
     color: #f0f9ff;
-    background-color: #282d32;
+    background-color: hsl(0, 0%, 90%);
 }
 
 
@@ -64,4 +71,8 @@ a {
     line-height: 5rem;
     text-align: center;
     margin: 0 0.9em;
+}
+
+.copyRight {
+    color: black;
 }
