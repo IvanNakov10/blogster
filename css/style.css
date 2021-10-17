@@ -1,5 +1,6 @@
 @import url('http://fonts.cdnfonts.com/css/intro');
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,200;1,300;1,400&display=swap');
 
 #main-container,
 html,
@@ -39,7 +40,7 @@ body {
 
 /*ARTICLES*/
 .articles {
-    margin-top: 22vh;
+    margin-top: 13vh;
 }
 
 a {
@@ -48,7 +49,11 @@ a {
 }
 
 /*FOOTER*/
-
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 
 
 .footer-dark {
@@ -75,4 +80,16 @@ a {
 
 .copyRight {
     color: black;
+}
+
+/*article*/
+.header {
+    font-family: 'Intro Demo', sans-serif;
+    font-size: 2em;
+}
+
+.text-article {
+    font-size: 1.2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
