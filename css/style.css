@@ -93,3 +93,13 @@ footer {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
+
+@media only screen and (max-width: 992px) {
+
+    /*FOOTER*/
+    footer {
+        position: static;
+        bottom: 0;
+        width: 100%;
+    }
+}
