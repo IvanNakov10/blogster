@@ -122,13 +122,19 @@ a {
     margin-top: 1em;
 }
 
-.two-btn {
-    width: 50%;
+
+.button1 {
+    border: black 2px solid;
+    border-radius: 10px;
+    font-size: 1.2em;
+    width: 175px;
+    margin-top: 2em;
 }
 
 .button {
     border: black 2px solid;
     border-radius: 10px;
     font-size: 1.2em;
-
+    width: 175px;
+    margin-top: .5em;
 }
