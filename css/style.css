@@ -128,7 +128,7 @@ a {
     border-radius: 10px;
     font-size: 1.2em;
     width: 175px;
-    margin-top: 2em;
+    margin-top: 1.75em;
 }
 
 .button {
@@ -138,3 +138,14 @@ a {
     width: 175px;
     margin-top: .5em;
 }
+
+.question {
+    font-size: 1.7em;
+    margin-bottom: 1em;
+}
+
+.textB {
+    width: 20em;
+}
+
+@media only screen and (max-width: 992px) {}
