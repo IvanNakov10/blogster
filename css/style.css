@@ -127,15 +127,25 @@ a {
 
 .button1 {
     border: black 2px solid;
-    border-radius: 10px;
+    background-color: black;
+    color: white;
     font-size: 1.2em;
     width: 175px;
     margin-top: 1.75em;
+
+}
+
+.icon {
+    transition: transform .54s ease-in-out;
+}
+
+.icon:hover {
+    transform: rotate(360deg);
 }
 
 .button {
     border: black 2px solid;
-    border-radius: 10px;
+
     font-size: 1.2em;
     width: 175px;
     margin-top: .5em;
