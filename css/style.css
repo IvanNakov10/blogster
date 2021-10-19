@@ -148,4 +148,23 @@ a {
     width: 20em;
 }
 
-@media only screen and (max-width: 992px) {}
+.text-drive {
+    font-size: 1.8em;
+    margin-top: 1em;
+    text-align: center;
+}
+
+@media only screen and (max-width: 482px) {
+    .text-drive {
+        font-size: 1.5em;
+        margin-top: 1em;
+    }
+
+}
+
+
+#nextstep {
+    display: flex;
+    place-content: center;
+    margin-top: 50px;
+}
