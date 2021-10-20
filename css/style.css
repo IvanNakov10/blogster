@@ -145,10 +145,11 @@ a {
 
 .button {
     border: black 2px solid;
-
+    background-color: black;
+    color: white;
     font-size: 1.2em;
     width: 175px;
-    margin-top: .5em;
+    margin-top: 1.75em;
 }
 
 .question {
