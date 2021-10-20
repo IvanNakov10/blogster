@@ -168,12 +168,23 @@ a {
     text-align: center;
 }
 
+.text-drive-2 {
+    font-size: 1.6em;
+
+    text-align: center;
+}
+
 @media only screen and (max-width: 482px) {
     .text-drive {
         font-size: 1.5em;
         margin-top: 1em;
     }
 
+    .text-drive-2 {
+        font-size: 1.6em;
+
+        text-align: center;
+    }
 }
 
 
