@@ -109,6 +109,7 @@ a {
         position: static;
         bottom: 0;
         width: 100%;
+        transition: transform .54s ease-in-out;
     }
 }
 
@@ -132,7 +133,7 @@ a {
     font-size: 1.2em;
     width: 175px;
     margin-top: 1.75em;
-
+    transition: transform .54s ease-in-out;
 }
 
 .icon {
@@ -150,6 +151,7 @@ a {
     font-size: 1.2em;
     width: 175px;
     margin-top: 1.75em;
+    transition: transform .54s ease-in-out;
 }
 
 .question {
@@ -158,7 +160,7 @@ a {
 }
 
 .textB {
-    width: 20em;
+    width: 18em;
     margin-top: 0.5em;
 }
 
@@ -201,4 +203,20 @@ a {
     font-size: 1.2em;
     width: 175px;
     margin-top: 1.75em;
+}
+
+/*effects*/
+.button3:hover {
+    background-color: hsl(0, 0%, 30%);
+
+}
+
+.button:hover {
+    background-color: hsl(0, 0%, 30%);
+
+}
+
+.button1:hover {
+    background-color: hsl(0, 0%, 30%);
+
 }
