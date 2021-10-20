@@ -136,6 +136,17 @@ a {
     transition: transform .54s ease-in-out;
 }
 
+.button4 {
+    border: black 2px solid;
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+    width: 175px;
+    margin-top: 1.75em;
+    transition: transform .54s ease-in-out;
+    margin-bottom: 1em;
+}
+
 .icon {
     transition: transform .54s ease-in-out;
 }
@@ -217,6 +228,11 @@ a {
 }
 
 .button1:hover {
+    background-color: hsl(0, 0%, 30%);
+
+}
+
+.button4:hover {
     background-color: hsl(0, 0%, 30%);
 
 }
