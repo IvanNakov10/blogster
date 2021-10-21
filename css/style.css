@@ -1,6 +1,7 @@
 @import url('http://fonts.cdnfonts.com/css/intro');
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;0,900;1,700&display=swap');
 
 #main-container,
 html,
@@ -34,7 +35,8 @@ body {
 
 .article-name {
     text-align: center;
-    font-family: 'Intro Demo', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
     font-size: 1.27em;
 }
 
@@ -92,8 +94,10 @@ a {
 
 /*article*/
 .header {
-    font-family: 'Intro Demo', sans-serif;
+
     font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 .text-article {
